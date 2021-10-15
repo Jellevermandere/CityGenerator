@@ -1,10 +1,19 @@
 {
     "name": "JelleVer.CityGenerator.Editor",
+    "rootNamespace": "",
     "references": [
-      "JelleVer.CityGenerator"
+        "GUID:4102b7427301947adb80ee644fda0e87",
+        "GUID:343deaaf83e0cee4ca978e7df0b80d21"
     ],
     "includePlatforms": [
         "Editor"
     ],
-    "excludePlatforms": []
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
 }

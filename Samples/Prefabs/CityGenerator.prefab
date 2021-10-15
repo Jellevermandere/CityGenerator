@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &435951963529637320
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2922661567881662952}
+  - component: {fileID: 7505684392427684816}
+  m_Layer: 0
+  m_Name: CityGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2922661567881662952
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 435951963529637320}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.7027607, y: 1.5566015, z: 3.4772568}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7505684392427684816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 435951963529637320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 937f4299ce1534f6385a5fb52653b04c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buildingPrefab: {fileID: 6104317087949995563, guid: 0420874c3302945f0a75090cbbc17ee5, type: 3}
+  borderPrefab: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: 9f686506b982e4bf5bb152b481b529bc, type: 2}
+  updateGrid: 0
+  spawnFloor: 1
+  spawnLines: 0
+  SpawnBorder: 0
+  spawnPavement: 0
+  noiseStartPos: {x: 0, y: 3, z: 0}
+  noiseScale: {x: 1, y: 50, z: 1}
+  minBuildingArea: {x: 3, y: 3}
+  maxBuildingArea: {x: 5, y: 5}
+  roadLineOffset: 0.1
+  fallofSteepness: 1
+  gridSpacing: {x: 5, y: 5}
+  gridSize: {x: 10, y: 10}
+  BorderDimensions: {x: 1, y: 1, z: 1}
