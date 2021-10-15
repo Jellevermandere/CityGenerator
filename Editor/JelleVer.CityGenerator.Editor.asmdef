@@ -1,0 +1,10 @@
+{
+    "name": "JelleVer.CityGenerator.Editor",
+    "references": [
+      "JelleVer.CityGenerator"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": []
+}

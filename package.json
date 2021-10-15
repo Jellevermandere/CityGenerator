@@ -1,0 +1,24 @@
+{
+    "name": "be.jellever.city-generator",
+    "version": "0.0.1",
+    "displayName": "City Generator",
+    "description": "Tools to generate procedural cities",
+    "dependencies": {},
+    "keywords": [
+        "keyword1",
+        "keyword2",
+        "keyword3"
+    ],
+    "author": {
+        "name": "Jelle",
+        "email": "jelle@jellever.be",
+        "url": "https://www.jellever.be"
+    },
+    "samples": [
+        {
+            "displayName": "Working Sample scenes",
+            "description": "Shows how everything works in practice",
+            "path": "Samples~/SampleProject"
+        }
+    ]
+}
